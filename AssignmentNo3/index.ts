@@ -66,7 +66,7 @@ the factorial of that number.*/
 
 function factorial(num:number)
 {
-   var factorialCal:number=2;
+   var factorialCal:number=1;
    while(num != 0)
    {
        factorialCal = factorialCal* num;
@@ -74,10 +74,7 @@ function factorial(num:number)
    }
    return factorialCal;
 }
-
-   var num:number=3;
-   //factorial(factorialCal);
-   var result=factorial(3);
+   var result=factorial(5);
    console.log(`factorial of num`,result);
 
 /* Write a program having an array of numbers if the number is negative it should remove the 

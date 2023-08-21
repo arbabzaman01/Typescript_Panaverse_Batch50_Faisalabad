@@ -56,16 +56,14 @@ while (evenCount < 10) {
 /* Create a function that takes a positive integer as parameter and usesa while loop to calculate and return
 the factorial of that number.*/
 function factorial(num) {
-    var factorialCal = 2;
+    var factorialCal = 1;
     while (num != 0) {
         factorialCal = factorialCal * num;
         num--;
     }
     return factorialCal;
 }
-var num = 3;
-//factorial(factorialCal);
-var result = factorial(3);
+var result = factorial(5);
 console.log(`factorial of num`, result);
 /* Write a program having an array of numbers if the number is negative it should remove the
 negative number from the array.*/
