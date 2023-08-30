@@ -24,7 +24,6 @@ console.log(arr[i]);
   }
 
 }
-
 // 3.Implement a program that uses a loop to iterate through an array of numbers and remove all the even numbers 
 //from them and just leave the odd ones
 
@@ -82,6 +81,8 @@ for(let i=1;i<num.length;i++)
 }
 var LargeNumber:number=LargestElement(num);
 console.log(`Largest Element in a Array is: ${LargeNumber}`);
+//end
+
 
 
 
