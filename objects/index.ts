@@ -25,8 +25,7 @@ var Cars:CarType[]=
 ]
 for (let i=0;i<Cars.length;i++){
     const Car=Cars[i];
-console.log("List Of all Cars Company",Car.company);
-console.log("List of all Cars Year",Car.year);
+console.log(Car);
 }
 
 
